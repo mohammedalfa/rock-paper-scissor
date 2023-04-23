@@ -3,10 +3,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <script src="./script.js" defer></script>
+    <link href="./style.css" rel="stylesheet">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
   </head>
   <body>
-    
+    <div id="heading">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+    <div id="buttons">
+      <ul>
+        <li><button id="rock" type="button"><img alt="Rock" src="./images/rock.svg"></button></li>
+        <li><button id="paper" type="button"><img alt="Paper" src="./images/paper.svg"></button></li>
+        <li><button id="scissors" type="button"><img alt="Scissors" src="./images/scissors.svg"></button></li>
+      </ul>
+    </div>
+    <div id="scores">
+      <div id="player-score">Player score: </div>
+      <div id="computer-score">Computer score: </div>
+    </div>
+    <div id="text">Select an item to start!</div>
+    <div id="footer">Made by: me</div>
   </body>
 </html>
